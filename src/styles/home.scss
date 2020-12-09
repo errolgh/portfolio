@@ -1,0 +1,27 @@
+.home {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 10rem;
+}
+
+.tag-line {
+    flex: 1;
+    padding-right: 5rem;
+    h2{
+        font-size: 3rem;
+        font-weight: lighter;
+    }
+}
+
+.img-container {
+    padding-left: 12rem;
+    flex: 1;
+    // overflow: hidden;
+    img{
+        width: 54vh;
+        height: 72vh;
+        object-fit: cover;
+    }
+}
