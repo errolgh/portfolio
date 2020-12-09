@@ -24,25 +24,28 @@ export default function Home() {
                     <div>
                         <img src={rocket} alt="laptop" />
                         <h3>Rapid Deployment</h3>
-                        <p>Deployment with Netlify on an agile development basis.</p>
+                        <p>Application deployment with Netlify on an agile development basis.</p>
                     </div>
                 </div>
                 <div className="service-card">
                     <div>
                         <img src={laptop} alt="laptop" />
                         <h3>Responsive Design</h3>
-                        <p>Interfaces created with mobile, tablet, and desktop users in mind. Sites can be accessed from device.</p>
+                        <p>Interfaces created with mobile, tablet, and desktop users in mind. Sites can be accessed from any device.</p>
                     </div>
                 </div>
                 <div className="service-card">
                     <div>
                         <img src={hand} alt="laptop" />
                         <h3>Feature-Rich Apps</h3>
-                        <p>Currently showcasing my front end projects with a variety of features.</p>
+                        <p>Currently showcasing my front end projects with a variety of features from many JavaScript libraries.</p>
                     </div>
                 </div>
             </div>
-            <h4>My Work</h4>
+            <div>
+                <h4>My Portfolio</h4>
+                <p className="latest">See my latest work.</p>
+            </div>
         </>
     )
 }
