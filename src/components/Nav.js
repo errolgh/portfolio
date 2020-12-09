@@ -6,8 +6,8 @@ export default function Nav() {
             <h1>Errol Watson</h1>
             <ul>
                 <li>Home</li>
-                <li>About</li>
                 <li>Portfolio</li>
+                <li>About</li>
                 <li>Contact</li>
             </ul>
         </nav>

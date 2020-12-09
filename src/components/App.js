@@ -1,16 +1,29 @@
 import Nav from './Nav'
 import Home from './Home'
+import Portfolio from './Portfolio'
 import Footer from './Footer'
+import { Route, Switch } from 'react-router-dom'
 
 export default function App() {
   return (
     <>
       <Nav />
-      <Home />
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+        </Switch>
       <Footer />
     </>
   )
 }
+
+
+// node-sass
+// react-fontawesome (add license... maybe MIT for other packs)
 
 
 

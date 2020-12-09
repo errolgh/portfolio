@@ -1,4 +1,14 @@
-.home {
+h4 {
+    padding-top: 11rem;
+    font-size: 2.8rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+// tagline and banner section
+
+.banner {
     min-height: 90vh;
     display: flex;
     align-items: center;
@@ -13,6 +23,9 @@
         font-size: 3rem;
         font-weight: lighter;
     }
+    p {
+        padding-top: 1.5rem;
+    }
 }
 
 .img-container {
@@ -23,5 +36,29 @@
         width: 54vh;
         height: 72vh;
         object-fit: cover;
+    }
+}
+
+
+// services section
+
+.service-container {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.service-card {
+    width: 20%;
+    img {
+        width: 4.5rem;
+        height: 4.5rem;
+        display: block;
+        margin: auto;
+    }
+    h3 {
+        margin-left: 1rem;
+        padding: 1rem;
     }
 }

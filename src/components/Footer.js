@@ -9,10 +9,11 @@ export default function Footer() {
                     <li>Github</li>
                     <li>LinkedIn</li>
                     <li>Medium</li>
+                    <li>Twitter</li>
                 </ul>
                 <ul>
-                    <li>Email</li>
-                    <li>Phone Number</li>
+                    <li>Email: ewatsonrei@gmail.com</li>
+                    <li>Phone Number: (908) 472 - 1977</li>
                 </ul>
             </div>
         </footer>
