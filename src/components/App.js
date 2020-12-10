@@ -1,5 +1,5 @@
 import Nav from './Nav'
-import Home from './Home'
+import Home from '../pages/Home'
 import Portfolio from './Portfolio'
 import Footer from './Footer'
 import { Route, Switch } from 'react-router-dom'
