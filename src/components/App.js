@@ -1,7 +1,9 @@
 import Nav from './Nav'
 import Home from '../pages/Home'
-import Portfolio from './Portfolio'
+import Portfolio from '../pages/Portfolio'
 import Footer from './Footer'
+import About from '../pages/About'
+import Contact from '../pages/Contact'
 import { Route, Switch } from 'react-router-dom'
 
 export default function App() {
@@ -14,6 +16,12 @@ export default function App() {
           </Route>
           <Route path="/portfolio">
             <Portfolio />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       <Footer />
