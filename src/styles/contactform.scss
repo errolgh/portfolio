@@ -1,0 +1,21 @@
+.contact-me {
+    display: flex;
+    justify-content: center;
+    // text-align: center;
+}
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    background: white;
+    
+    .name-email {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1rem .5rem 1rem .5rem; 
+    }
+    .message {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -29,9 +29,12 @@ export default function App() {
   )
 }
 
-
 // node-sass
-// react-fontawesome (add license... maybe MIT for other packs)
+// react-fontawesome
+// react-router-dom
+// emailjs   // perhaps just use catch and modal for email successful submission
+
+// add license(s) per pack
 
 
 
