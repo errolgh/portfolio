@@ -15,7 +15,7 @@ export default function ContactForm() {
             </div>
 
             <form>
-                <section className="top-row">
+                <section className="first-row">
                     <div className="name">
                         <label>Name</label>
                         <input type="text" placeholder="Maya Angelou" />
@@ -26,18 +26,23 @@ export default function ContactForm() {
                     </div>
                 </section>
 
-                <div className="subject">
-                    <label>Subject</label>
-                    <input type="text" placeholder="I would like to hire you"/>
-                </div>
+                <section className="second-row">
+                    <div className="subject">
+                        <label>Subject</label>
+                        <input type="text" placeholder="I would like to hire you"/>
+                    </div>
+                </section>
 
-                <div className="message">
-                    <label>Message</label>
-                    <textarea placeholder="I just thought your portfolio was incredible" />
-                </div>
+                <section className="third-row">
+                    <div className="message">
+                        <label>Message</label>
+                        <textarea placeholder="I just thought your portfolio was incredible" />
+                    </div>
+                </section>
+                <section className="submit-btn">
+                    <button>Send</button>
+                </section>
             </form>
-
-            <button>Send</button>
 
         </div>
     )

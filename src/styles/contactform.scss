@@ -1,84 +1,72 @@
-//nest everything with sass.
-//change everything to rems for responsive design.
+// center button.
+//textarea confinements.
+//media query to jump email to next line.
 
 .form-container {
     width: 100%;
-    max-width: 680px;
-    margin: 100px auto 0;
-    padding: 20px;
-    box-sizing: border-box;
+    max-width: 40rem;
+    padding: 1rem;
+    margin: 0rem auto;
 }
-
 
 .contact-me {
     text-align: center;
     h1 {
-        letter-spacing: 1px;
+        letter-spacing: 0.06rem;
     }
 }
 
 
 form {
     width: 100%;
-    margin: 25px 0px;
+    padding-top: .3rem;
 }
 
 
-// .top-row,
-// .subject,
-// .message {
-//     display: flex;
-//     width: 100%;
-//     min-height: 65px;
-//     margin: 25px 0px;
-//     overflow: hidden; 
-//     //without this^, form seems to works fine.
-// }
+section {
+    padding-top: 0.8rem; //between each of the 3 sections
+}
 
 
-form input[type="text"],
-form textarea {
-    padding: 15px 5px;
+.name, .email {
+    width: 48%;
+}
+
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+label {
+    display: inline-block;
+    padding-bottom: 0.4rem;
+}
+
+
+input, textarea {
+    padding: 1rem 0.3rem;
     width: 100%;
-    border: 2px solid #fff;
-    border-radius: 2px;
+    border: 0.08rem solid rgb(221, 221, 221);
+    border-radius: 0.3rem;
     outline: none;
     transition: all 0.2s ease;
+    font-family: "Canterall", sans-serif;
 }
 
 
-form input:focus,
-form textarea:focus {
+input:focus, textarea:focus {
     border-color: #4ca1af;
-    box-shadow: inset 0 1px 1px rbga(0,0,0, 0.0125),
-    0 0 8px rbga(76, 161, 175, 0.5);
+    box-shadow: inset 0 0.05rem 0.05rem rbga(0,0,0, 0.0125),
+    0 0 0.5rem rbga(76, 161, 175, 0.5);
 }
 
 
-form label {
-    margin-bottom: 5px;
-}
-
-
-.top-row .name .email {
-    width: 29.9%;
-    // float: left;
-    margin: 5%;
-}
-
-
-// .name .input-pair:last-child {
-//     margin-right: 0;
-// }
-
-
-// .subject {
-//     clear: both;
-// }
-
-
-.message textarea {
-    height: 120px;
+textarea {
+    height: 9rem;
+    margin-bottom: 0.3rem;
+    //refactored above
     //min height/lines
     // max height/lines
     //make width fixed
@@ -87,22 +75,14 @@ form label {
 
 button {
     background: #4ca1af;
-    width: 200px;
-    height: 50px;
-    padding: 10px 0px;
+    width: 15rem;
+    height: 3rem;
+    padding: 0.8rem 0rem;
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
 }
 
 
-@media screen and (max-width: 460px) {
-    .form-container {
-        margin-top: 25px auto 0;
-    }
-
-    .name {
-        width: 100%;
-        margin: 5px 0px;
-    }
-}
+// the first-row needs to jump down at 460
+// @media
