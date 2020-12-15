@@ -1,9 +1,9 @@
 import Nav from './Nav'
-import Home from '../pages/Home'
-import Portfolio from '../pages/Portfolio'
 import Footer from './Footer'
+import Home from '../pages/Home'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
+import Portfolio from '../pages/Portfolio'
 import { Route, Switch } from 'react-router-dom'
 
 export default function App() {

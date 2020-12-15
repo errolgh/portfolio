@@ -1,21 +1,108 @@
-.contact-me {
-    display: flex;
-    justify-content: center;
-    // text-align: center;
+//nest everything with sass.
+//change everything to rems for responsive design.
+
+.form-container {
+    width: 100%;
+    max-width: 680px;
+    margin: 100px auto 0;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.contact-form-container {
-    display: flex;
-    justify-content: center;
-    background: white;
-    
-    .name-email {
-        display: flex;
-        justify-content: space-evenly;
-        padding: 1rem .5rem 1rem .5rem; 
+
+.contact-me {
+    text-align: center;
+    h1 {
+        letter-spacing: 1px;
     }
-    .message {
-        display: flex;
-        justify-content: center;
+}
+
+
+form {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+
+// .top-row,
+// .subject,
+// .message {
+//     display: flex;
+//     width: 100%;
+//     min-height: 65px;
+//     margin: 25px 0px;
+//     overflow: hidden; 
+//     //without this^, form seems to works fine.
+// }
+
+
+form input[type="text"],
+form textarea {
+    padding: 15px 5px;
+    width: 100%;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+
+form input:focus,
+form textarea:focus {
+    border-color: #4ca1af;
+    box-shadow: inset 0 1px 1px rbga(0,0,0, 0.0125),
+    0 0 8px rbga(76, 161, 175, 0.5);
+}
+
+
+form label {
+    margin-bottom: 5px;
+}
+
+
+.top-row .name .email {
+    width: 29.9%;
+    // float: left;
+    margin: 5%;
+}
+
+
+// .name .input-pair:last-child {
+//     margin-right: 0;
+// }
+
+
+// .subject {
+//     clear: both;
+// }
+
+
+.message textarea {
+    height: 120px;
+    //min height/lines
+    // max height/lines
+    //make width fixed
+}
+
+
+button {
+    background: #4ca1af;
+    width: 200px;
+    height: 50px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 460px) {
+    .form-container {
+        margin-top: 25px auto 0;
+    }
+
+    .name {
+        width: 100%;
+        margin: 5px 0px;
     }
 }
