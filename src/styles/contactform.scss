@@ -1,6 +1,5 @@
 // center button.
-//textarea confinements.
-//media query to jump email to next line.
+// create media query to jump email to next line.
 
 .form-container {
     width: 100%;
@@ -24,7 +23,7 @@ form {
 
 
 section {
-    padding-top: 0.8rem; //between each of the 3 sections
+    padding-top: 0.7rem; //between each of the 3 sections
 }
 
 
@@ -64,23 +63,27 @@ input:focus, textarea:focus {
 
 
 textarea {
-    height: 9rem;
-    margin-bottom: 0.3rem;
-    //refactored above
-    //min height/lines
-    // max height/lines
-    //make width fixed
+    display:flex;
+    height: 7rem;
+    max-width: 100%;
+    max-height: 15rem;
+    min-width: 50%;
+    min-height: 4rem;
+    margin-bottom: 0.7rem;
 }
 
 
 button {
     background: #4ca1af;
-    width: 15rem;
+    width: 100%;
     height: 3rem;
     padding: 0.8rem 0rem;
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.08rem;
 }
 
 

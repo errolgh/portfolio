@@ -11,32 +11,32 @@ export default function ContactForm() {
 
             <div className="contact-me">
                 <h1>Contact Me</h1>
-                <p>Send an email to get in touch with me.</p>
+                <p>Send an email to get in touch.</p>
             </div>
 
             <form>
                 <section className="first-row">
                     <div className="name">
-                        <label>Name</label>
-                        <input type="text" placeholder="Maya Angelou" />
+                        <label>Name*</label>
+                        <input required type="text" placeholder="Jane Smith" />
                     </div>
                     <div className="email">
-                        <label>Email</label>
-                        <input type="text" placeholder="example@gmail.com" />
+                        <label>Email*</label>
+                        <input required type="text" placeholder="example@gmail.com" />
                     </div>
                 </section>
 
                 <section className="second-row">
                     <div className="subject">
                         <label>Subject</label>
-                        <input type="text" placeholder="I would like to hire you"/>
+                        <input type="text" placeholder="Would Love to Hire You"/>
                     </div>
                 </section>
 
                 <section className="third-row">
                     <div className="message">
-                        <label>Message</label>
-                        <textarea placeholder="I just thought your portfolio was incredible" />
+                        <label>Message*</label>
+                        <textarea required placeholder="I thought your portfolio was just incredible" />
                     </div>
                 </section>
                 <section className="submit-btn">
