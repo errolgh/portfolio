@@ -1,4 +1,4 @@
-// center button.
+// change button color on hover.
 // create media query to jump email to next line.
 
 .form-container {
@@ -87,5 +87,15 @@ button {
 }
 
 
+button:hover {
+    transition: all 0.4s ease;
+    background: #37b95e;
+}
+
+
 // the first-row needs to jump down at 460
-// @media
+// @media (max-width: 640px) {
+//     .name .email {
+//         asdfa
+//     }
+// }

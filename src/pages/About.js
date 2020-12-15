@@ -1,7 +1,11 @@
 export default function About () {
     return (
         <>
-            <h3>AboutMe</h3>
+            <h1>About this Site</h1>
+            <p>
+                lorem20
+            </p>
+            <h1>About the Author</h1>
             <p>
                 lorem20
             </p>

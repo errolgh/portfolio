@@ -3,8 +3,21 @@ import '../styles/contactform.scss'
 
 
 export default function ContactForm() {
+    // https://www.youtube.com/watch?v=NgWGllOjkbs
+    const sendEmail = e => {
+        e.preventDefault()
 
-    // emailjs.get
+        emailjs.sendForm('service_p2tmakp', 'template_riz2nyv', e.target, 'user_2yrJa4tMcH6vhEqJprZIe')
+        .then(result => {
+          console.log(result.text)
+        }, error => {
+          console.log(error.text)
+        })
+        e.target.reset()
+        //add async "success" modal
+        //add async "something went wrong, check your connection or try again later" modal
+    }
+
 
     return (
         <div className="form-container">
@@ -14,75 +27,39 @@ export default function ContactForm() {
                 <p>Send an email to get in touch.</p>
             </div>
 
-            <form>
+            <form onSubmit={sendEmail}>
+
                 <section className="first-row">
                     <div className="name">
                         <label>Name*</label>
-                        <input required type="text" placeholder="Jane Smith" />
+                        <input name="name" required type="text" placeholder="Jane Smith" />
                     </div>
                     <div className="email">
                         <label>Email*</label>
-                        <input required type="text" placeholder="example@gmail.com" />
+                        <input required name="email" type="text" placeholder="example@gmail.com" />
                     </div>
                 </section>
 
                 <section className="second-row">
                     <div className="subject">
                         <label>Subject</label>
-                        <input type="text" placeholder="Would Love to Hire You"/>
+                        <input name="subject" type="text" placeholder="Would Love to Hire You"/>
                     </div>
                 </section>
 
                 <section className="third-row">
                     <div className="message">
                         <label>Message*</label>
-                        <textarea required placeholder="I thought your portfolio was just incredible" />
+                        <textarea name="message" required placeholder="I thought your portfolio was just incredible" />
                     </div>
                 </section>
+
                 <section className="submit-btn">
-                    <button>Send</button>
+                    <button value="Send" type="submit" >Send</button>
                 </section>
+
             </form>
 
         </div>
     )
 }
-
-
-// adding emailjs form and sign up for emailjs
-{/* <h3 className="contact-me">Contact Me</h3>
-<div className="contact-form-container">
-    <form id="contact-form">
-        <div className="name-email">
-            <div>
-                <p>Name:</p>
-                <input
-                    type='text'
-                    name='name'
-                    value={null}
-                    onChange={null}
-                    />  
-            </div>
-            <div>
-                <p>Email:</p>
-                <input
-                    type='email'
-                    name='email'
-                    value={null}
-                    onChange={null}
-                />
-            </div>
-        </div>
-        <div className="subject">
-            <input 
-                type='text' 
-                name='subject'
-            />
-        </div>
-        <div className="message">
-            <textarea 
-                rows="5"
-            />
-        </div>
-    </form>
-</div> */}
