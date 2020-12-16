@@ -7,7 +7,12 @@ export default function ContactForm() {
     const sendEmail = e => {
         e.preventDefault()
 
-        emailjs.sendForm('service_p2tmakp', 'template_riz2nyv', e.target, 'user_2yrJa4tMcH6vhEqJprZIe')
+        emailjs.sendForm(
+            `${process.env.REACT_APP_SERVICE_ID}`,
+            `${process.env.REACT_APP_TEMPLATE_ID}`,
+            e.target,
+            `${process.env.REACT_APP_USER_ID}`
+        )
         .then(result => {
           console.log(result.text)
         }, error => {

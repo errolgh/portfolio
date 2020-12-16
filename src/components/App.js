@@ -31,14 +31,14 @@ export default function App() {
 
 
 // upgraded "ini" in package-lock.json to 1.3.6 from 1.3.5
-
-
+//react router netlify 404: https://dev.to/rajeshroyal/page-not-found-error-on-netlify-reactjs-react-router-solved-43oa
+// for environment variables deployed on netlify, go to Settings > Build & Deploy > Environment > Edit Variables
 
 // node-sass
 // react-fontawesome
 // react-router-dom
-// emailjs   // perhaps just use catch and modal for email successful submission
-
+// emailjs   //catch and modal for email successful submission
+// framer-motion
 // add license(s) per pack
 
 
