@@ -29,6 +29,11 @@ export default function App() {
   )
 }
 
+
+// upgraded "ini" in package-lock.json to 1.3.6 from 1.3.5
+
+
+
 // node-sass
 // react-fontawesome
 // react-router-dom

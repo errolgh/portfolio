@@ -24,18 +24,18 @@ export default function ContactForm() {
 
             <div className="contact-me">
                 <h1>Contact Me</h1>
-                <p>Send an email to get in touch.</p>
+                <p>Send an email to get in touch. <span>(built with EmailJS)</span></p>
             </div>
 
             <form onSubmit={sendEmail}>
 
                 <section className="first-row">
                     <div className="name">
-                        <label>Name*</label>
+                        <label>Name<span>*</span></label>
                         <input name="name" required type="text" placeholder="Jane Smith" />
                     </div>
                     <div className="email">
-                        <label>Email*</label>
+                        <label>Email<span>*</span></label>
                         <input required name="email" type="text" placeholder="example@gmail.com" />
                     </div>
                 </section>
@@ -49,7 +49,7 @@ export default function ContactForm() {
 
                 <section className="third-row">
                     <div className="message">
-                        <label>Message*</label>
+                        <label>Message<span>*</span></label>
                         <textarea name="message" required placeholder="I thought your portfolio was just incredible" />
                     </div>
                 </section>

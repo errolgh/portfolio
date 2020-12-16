@@ -1,15 +1,19 @@
 import '../styles/nav.scss'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function Nav() {
     return (
         <nav>
             <h1 id="logo">Errol Watson</h1>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/portfolio">Portfolio</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><NavLink to="/" activeClassName="current-page" exact>Home</NavLink></li>
+                <div className="line" ></div>
+                <li><NavLink to="/portfolio" activeClassName="current-page" >Portfolio</NavLink></li>
+                <div className="line" ></div>
+                <li><NavLink to="/about" activeClassName="current-page" >About</NavLink></li>
+                <div className="line" ></div>
+                <li><NavLink to="/contact" activeClassName="current-page" >Contact</NavLink></li>
+                <div className="line" ></div>
             </ul>
         </nav>
     )

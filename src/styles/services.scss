@@ -1,0 +1,20 @@
+.service-container {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.service-card {
+    width: 20%;
+    img {
+        width: 4.5rem;
+        height: 4.5rem;
+        display: block;
+        margin: auto;
+    }
+    h3 {
+        margin-left: 1rem;
+        padding: 1rem;
+    }
+}

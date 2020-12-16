@@ -1,6 +1,7 @@
 import laptop from '../images/laptop.svg'
 import rocket from '../images/rocket.svg'
 import hand from '../images/hand.svg'
+import '../styles/services.scss'
 
 export default function Services() {
     return (
