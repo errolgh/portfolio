@@ -1,0 +1,16 @@
+.card-container {
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    img{
+        width: 60%;
+        // object-fit: cover;
+        border: 0.08rem solid rgb(87, 87, 87);
+        border-radius: 0.08;
+    }
+    .project-card {
+        margin-bottom: 5rem;
+    }
+
+}
+
