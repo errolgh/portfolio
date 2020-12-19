@@ -26,7 +26,7 @@ export default function Services() {
                     <div>
                         <img src={hand} alt="laptop" />
                         <h3>Feature-Rich Apps</h3>
-                        <p>Currently showcasing my front end projects with a variety of features from many JavaScript libraries.</p>
+                        <p>Showcasing my front end projects with a variety of features from many JavaScript libraries.</p>
                     </div>
                 </div>
             </div>

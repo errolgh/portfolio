@@ -30,6 +30,7 @@ export default function ContactForm() {
             <div className="contact-me">
                 <h1>Contact Me</h1>
                 <p>Send an email to get in touch. <span>(built with EmailJS)</span></p>
+                <span><p>*&nbsp;</p>= required</span>
             </div>
 
             <form onSubmit={sendEmail}>
