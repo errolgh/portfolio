@@ -34,6 +34,7 @@ export default function App() {
 //react router netlify 404: https://dev.to/rajeshroyal/page-not-found-error-on-netlify-reactjs-react-router-solved-43oa
 // for environment variables deployed on netlify, go to Settings > Build & Deploy > Environment > Edit Variables
 
+
 // node-sass
 // react-fontawesome
 // react-router-dom

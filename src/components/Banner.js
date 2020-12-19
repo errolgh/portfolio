@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Banner() {
     return (
-        <>
+        <div className="banner-container">
             <div className="banner">
                 <div className="tag-line">
                     <h2>Purposeful</h2>
@@ -16,6 +16,6 @@ export default function Banner() {
                     <img src={errol1} alt="Errol Watson" />
                 </div>
             </div>
-        </>
+        </div>
     )
 }

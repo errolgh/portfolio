@@ -4,23 +4,30 @@ import '../styles/gallery.scss'
 
 export default function Gallery(){
     return (
-        <div>
-            <div className="card-container">
-                <div className="project-card">
-                    <h3>Hacker News Search</h3>
-                    <img src={hackerNewsSearch} alt="Hacker News Search" />
-                    <p></p>
-                </div>
-                <div className="project-card">
-                    <h3>Hacker News Search</h3>
-                    <img src={hackerNewsSearch} alt="Hacker News Search" />
-                    <p></p>
-                </div>
-                <div className="project-card">
-                    <h3>Hacker News Search</h3>
-                    <img src={hackerNewsSearch} alt="Hacker News Search" />
-                    <p></p>
-                </div>
+        <div className="projects">
+            <div className="project">
+                <h2>Hacker News Search</h2>
+                <img src={hackerNewsSearch} alt="Hacker News Search" />
+            </div>
+            <div className="project">
+                <h2>Hacker News Search</h2>
+                <img src={hackerNewsSearch} alt="Hacker News Search" />
+            </div>
+            <div className="project">
+                <h2>Hacker News Search</h2>
+                <img src={hackerNewsSearch} alt="Hacker News Search" />
+            </div>
+            <div className="project">
+                <h2>Hacker News Search</h2>
+                <img src={hackerNewsSearch} alt="Hacker News Search" />
+            </div>
+            <div className="project">
+                <h2>Hacker News Search</h2>
+                <img src={hackerNewsSearch} alt="Hacker News Search" />
+            </div>
+            <div className="project">
+                <h2>Hacker News Search</h2>
+                <img src={hackerNewsSearch} alt="Hacker News Search" />
             </div>
         </div>
     )

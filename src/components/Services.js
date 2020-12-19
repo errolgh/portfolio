@@ -5,7 +5,7 @@ import '../styles/services.scss'
 
 export default function Services() {
     return (
-        <>
+        <div>
             <h4>My Focus</h4>
             <div className="service-container">
                 <div className="service-card">
@@ -30,6 +30,6 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

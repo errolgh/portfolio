@@ -2,7 +2,7 @@ button {
     background: #4ca1af;
     width: 25%;
     height: 3rem;
-    padding: 0.8rem 0rem;
+    // padding: 0.8rem 0rem;
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
@@ -37,18 +37,21 @@ h4 {
 // tagline and banner section
 
 .banner {
-    min-height: 90vh;
-    display: flex;
+    height: 80vh;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+    grid-column-gap: 3rem;
+    grid-row-gap: 5rem;
     align-items: center;
-    justify-content: space-around;
-    padding: 2rem 10rem;
+    justify-items: center;
 }
 
 .tag-line {
     flex: 1;
-    padding-right: 5rem;
+    text-align: center;
     h2{
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: lighter;
     }
     p {
@@ -63,12 +66,14 @@ h4 {
 }
 
 .img-container {
-    padding-left: 10rem;
-    flex: 1;
-    // overflow: hidden;
+    display: flex;
+    justify-content: center;
     img{
-        width: 54vh;
-        height: 72vh;
+        margin-right: 10rem; //but only on a media query for larger than 1064px
+        flex: 1;
+        height: 80vh;
+        max-width: 80vh;
+        overflow: hidden;
         object-fit: cover;
     }
 }
