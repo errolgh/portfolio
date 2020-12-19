@@ -9,6 +9,7 @@ export default function Gallery(){
                 <div className="project-card">
                     <h3>Hacker News Search</h3>
                     <img src={hackerNewsSearch} alt="Hacker News Search" />
+                    {/* https://cranky-stonebraker-12c9f2.netlify.app/ */}
                     <p></p>
                 </div>
                 <div className="project-card">
