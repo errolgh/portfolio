@@ -1,3 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-thumb {
+color: #4ca1af;
+  }
+}
+
+body {
+  width: 100%;
+}
+
 /* .App {
   text-align: center;
 }

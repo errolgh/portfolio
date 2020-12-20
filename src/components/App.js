@@ -1,4 +1,5 @@
 import Nav from './Nav'
+import '../styles/app.scss'
 import Footer from './Footer'
 import Home from '../pages/Home'
 import About from '../pages/About'
