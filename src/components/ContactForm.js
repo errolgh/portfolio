@@ -14,13 +14,11 @@ export default function ContactForm() {
             `${process.env.REACT_APP_USER_ID}`
         )
         .then(result => {
-          console.log(result.text)
+          alert("Your email was sent successfully.")
         }, error => {
-          console.log(error.text)
+            alert("Something went wrong. Check your connection or try again later.")
         })
         e.target.reset()
-        //add async "success" modal
-        //add async "something went wrong, check your connection or try again later" modal
     }
 
 

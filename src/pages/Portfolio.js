@@ -1,12 +1,14 @@
 import Gallery from '../components/Gallery'
 import '../styles/portfolio.scss'
+import { motion } from 'framer-motion'
+import { pageAnimation } from '../animation'
 
 export default function Portfolio(){
     return(
-        <div className="portfolio">
+        <motion.div className="portfolio" variants={pageAnimation} initial="hidden" animate="show">
             <h1>My Case Studies</h1>
             <Gallery />
-        </div>
+        </motion.div>
     )
 }
 // portfolio can (and maybe should?) have its own scss file

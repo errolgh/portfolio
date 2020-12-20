@@ -1,13 +1,19 @@
 import flaterrol from '../images/flaterrol.jpg'
 import '../styles/about.scss'
+import { NavLink } from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { pageAnimation } from '../animation'
 
 export default function About () {
     return (
-        <div className="about">
+        <motion.div className="about" variants={pageAnimation} initial="hidden" animate="show">
+
             <div className="about-the-author">
+
                 <div className="author-image">
                     <img src={flaterrol} alt="author"/>
                 </div>
+
                 <div className="author-bio">
                     <h1>About the Author</h1>
                     <p>
@@ -22,33 +28,35 @@ export default function About () {
                     <br/>
                     So over the span of the years I've taken courses, bootcamps, and taught myself how to build websites and web applications.
                     Now it's time to offer my help to you.
-                    {/* What I found was that a lot of small businesses don't have the funds to spend thousands of dollars upfront on a new website.
-                    And many of those who did, were taken advantage of and have a website that inherited ancient design trends.
-                    They were in a frustrating spot - they either can't afford a good website, and if they can they don't know who to trust to make something great.&nbsp;
-                    So I tweaked my business model to fit their needs. That's how I came up with my $0 down and $150 a month model.
-                    It's more managable for a small business to handle and won't hurt their bank accounts.  */}
                     </p>
                     <button>
-                        Reach Out
+                        <NavLink to="/contact">
+                            Reach Out
+                        </NavLink>
                     </button>
                 </div>
+
             </div>
 
             <div className="about-this-site">
                 <h1>About this Site</h1>
                 <div className="libraries-used">
+
                     <ul>
                         <li>React 17</li>
                         <li>React Router v5</li>
                         <li>Sass CSS</li>
                     </ul>
+
                     <ul>
                         <li>Font Awesome</li>
                         <li>EmailJS</li>
                         <li>Framer-Motion</li>
                     </ul>
+                    
                 </div>
             </div>
-        </div>
+
+        </motion.div>
     )
 }

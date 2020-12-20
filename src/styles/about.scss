@@ -1,6 +1,6 @@
 img {
     margin-top: 0.5rem;
-    border-radius: 50%;
+    width: auto;
     width: 40vh;
     margin-right: 3rem;
 }
@@ -12,6 +12,10 @@ img {
 }
 
 .about-this-site {
+    h1 {
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+    }
     text-align: center;
     ul {
         display:flex;
@@ -20,7 +24,8 @@ img {
     }
     li {
         list-style-type: none;
-        padding: 1rem 0rem 1rem 0rem;
+        padding: 2rem 0rem 1rem 0rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -39,6 +44,9 @@ img {
     display:flex;
     flex-direction: column;
     align-items: center;
+    p {
+        padding-bottom: 2rem;
+    }
     button {
         justify-content: center;
     }
