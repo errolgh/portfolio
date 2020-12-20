@@ -5,13 +5,16 @@ import Home from '../pages/Home'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Portfolio from '../pages/Portfolio'
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, useLocation } from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion'
 
 export default function App() {
+  const location = useLocation()
   return (
     <>
       <Nav />
-        <Switch>
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.pathname}>
           <Route path="/" exact>
             <Home />
           </Route>
@@ -25,6 +28,7 @@ export default function App() {
             <Contact />
           </Route>
         </Switch>
+      </AnimatePresence>
       <Footer />
     </>
   )

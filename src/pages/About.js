@@ -6,7 +6,7 @@ import { pageAnimation } from '../animation'
 
 export default function About () {
     return (
-        <motion.div className="about" variants={pageAnimation} initial="hidden" animate="show">
+        <motion.div className="about" exit="exit" variants={pageAnimation} initial="hidden" animate="show">
 
             <div className="about-the-author">
 
@@ -17,15 +17,15 @@ export default function About () {
                 <div className="author-bio">
                     <h1>About the Author</h1>
                     <p>
-                    My name is Errol Watson. I'm currently based in Baltimore, Maryland. I am the sole developer of this site.
+                    &nbsp;&nbsp;My name is Errol Watson. I'm currently based in Baltimore, Maryland. I am the sole developer of this site.
                     I got into programming after building my first gaming PC.
                     The build was relatively easy and mostly anticlimactic, thusly, after it was up and running,
                     I became more curious about how all the pieces in my computer and its applications worked.
                     I'm grateful for finding programming because I am the kind of person who enjoys deep dives into new subjects,&nbsp;
                     and programming is <span style={{"font-style": "italic"}}>deep.</span>&nbsp;
-                    I wanted to build a career that I could cultivate from home if necessary and spend less time in someone else's idea of a work environment.
                     <br/>
                     <br/>
+                    &nbsp;&nbsp;I wanted to build a career that I could cultivate from home if necessary and spend less time in someone else's idea of a work environment.
                     So over the span of the years I've taken courses, bootcamps, and taught myself how to build websites and web applications.
                     Now it's time to offer my help to you.
                     </p>
@@ -53,7 +53,7 @@ export default function About () {
                         <li>EmailJS</li>
                         <li>Framer-Motion</li>
                     </ul>
-                    
+
                 </div>
             </div>
 

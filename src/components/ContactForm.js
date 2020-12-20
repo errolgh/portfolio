@@ -14,7 +14,7 @@ export default function ContactForm() {
             `${process.env.REACT_APP_USER_ID}`
         )
         .then(result => {
-          alert("Your email was sent successfully.")
+          alert("Your email was sent successfully. Thank you!")
         }, error => {
             alert("Something went wrong. Check your connection or try again later.")
         })

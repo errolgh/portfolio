@@ -5,7 +5,7 @@ import { pageAnimation } from '../animation'
 
 export default function Portfolio(){
     return(
-        <motion.div className="portfolio" variants={pageAnimation} initial="hidden" animate="show">
+        <motion.div className="portfolio" exit="exit" variants={pageAnimation} initial="hidden" animate="show">
             <h1>My Case Studies</h1>
             <Gallery />
         </motion.div>

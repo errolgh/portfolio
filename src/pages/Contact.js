@@ -4,7 +4,7 @@ import { pageAnimation } from '../animation'
 
 export default function Contact() {
     return(
-        <motion.div variants={pageAnimation} initial="hidden" animate="show">
+        <motion.div variants={pageAnimation} exit="exit" initial="hidden" animate="show">
             <ContactForm />
         </motion.div>
     )

@@ -5,7 +5,7 @@ import { pageAnimation } from '../animation'
 
 export default function Home() {
     return (
-        <motion.div className="home" variants={pageAnimation} initial="hidden" animate="show">
+        <motion.div className="home" exit="exit" variants={pageAnimation} initial="hidden" animate="show">
             <Banner />
             <Services />
         </motion.div>
