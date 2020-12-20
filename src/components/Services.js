@@ -5,7 +5,7 @@ import '../styles/services.scss'
 
 export default function Services() {
     return (
-        <div>
+        <div className="services">
             <h4>My Focus</h4>
             <div className="service-container">
                 <div className="service-card">

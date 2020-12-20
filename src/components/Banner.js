@@ -13,7 +13,7 @@ export default function Banner() {
                     <button><NavLink to="/contact" activeClassName="current-page" >Get In Touch</NavLink></button>
                 </div>
                 <div className="img-container">
-                    <img src={errol1} alt="Errol Watson" />
+                    <img className="banner-image" src={errol1} alt="Errol Watson" />
                 </div>
             </div>
         </div>

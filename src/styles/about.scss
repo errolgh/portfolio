@@ -1,0 +1,45 @@
+img {
+    margin-top: 0.5rem;
+    border-radius: 50%;
+    width: 40vh;
+    margin-right: 3rem;
+}
+
+.about-the-author {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 30rem 10rem 30rem;
+}
+
+.about-this-site {
+    text-align: center;
+    ul {
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    li {
+        list-style-type: none;
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
+
+.libraries-used {
+    padding: 0rem 40rem 10rem 40rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+}
+
+.about {
+    padding-top: 5rem;
+}
+
+.author-bio {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    button {
+        justify-content: center;
+    }
+}

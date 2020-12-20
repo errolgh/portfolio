@@ -68,12 +68,14 @@ h4 {
 .img-container {
     display: flex;
     justify-content: center;
-    img{
+    .banner-image {
         margin-right: 10rem; //but only on a media query for larger than 1064px
-        flex: 1;
+        // flex: 1;
         height: 80vh;
-        max-width: 80vh;
+        max-width: 80%;
+        // max-width: 80vh;
         overflow: hidden;
         object-fit: cover;
+        border-radius: 0rem;
     }
 }
