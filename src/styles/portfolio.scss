@@ -1,8 +1,13 @@
-.portfolio {
-    padding: 0rem 5rem;
-    padding: 2rem 5rem 4rem 5rem;
-    h1 {
-        padding: 0rem 0rem 3rem 0rem;
-        text-align: center;
+#portfolio {
+  @media (min-width: 700px) {
+    padding: 2rem 5rem;
+    margin-bottom: 4rem;
+  }
+  h1 {
+    text-align: center;
+
+    @media (min-width: 700px) {
+      margin-bottom: 3rem;
     }
+  }
 }
