@@ -29,11 +29,11 @@ export default function About () {
                     So over the span of the years I've taken courses, bootcamps, and taught myself how to build websites and web applications.
                     Now it's time to offer my help to you.
                     </p>
-                    <button>
-                        <NavLink to="/contact">
+                    <NavLink to="/contact">
+                        <button>
                             Reach Out
-                        </NavLink>
-                    </button>
+                        </button>
+                    </NavLink>
                 </div>
 
             </div>

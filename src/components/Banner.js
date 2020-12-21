@@ -10,7 +10,7 @@ export default function Banner() {
                     <h2>Purposeful</h2>
                     <h2>Web Development</h2>
                     <p>I work to bring new features to <span>life</span>.</p>
-                    <button><NavLink to="/contact" activeClassName="current-page" >Get In Touch</NavLink></button>
+                    <NavLink to="/contact" activeClassName="current-page" ><button>Get In Touch</button></NavLink>
                 </div>
                 <div className="img-container">
                     <img className="banner-image" src={errol1} alt="Errol Watson" />
