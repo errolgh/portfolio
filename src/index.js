@@ -5,6 +5,24 @@ import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 
+/* TODO
+Overall responsiveness for site
+-media queries
+-remove min-widths
+
+Fix/add scroll bars
+
+Hamburger Menu for Nav
+
+add different projects
+
+add detail list for projects
+-add framer motion modal if possible
+
+pull projects from separate folder
+
+*/
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
