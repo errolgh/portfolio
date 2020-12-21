@@ -1,56 +1,85 @@
-img {
-    margin-top: 0.5rem;
-    width: auto;
-    width: 40vh;
-    margin-right: 3rem;
-}
-
 .about-the-author {
+  margin-bottom: 1rem;
+
+  @media (min-width: 700px) {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 30rem 10rem 30rem;
-    h1 {
-        padding-bottom: 1rem;
+    padding: 2rem 5%;
+    align-items: flex-start;
+  }
+
+  @media (min-width: 1200px) {
+    align-items: center;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    @media (min-width: 700px) {
+      margin-top: 0;
     }
+  }
+
+  .author-image {
+    @media (min-width: 700px) {
+      margin-right: 3rem;
+      flex: 1 0 40%;
+      margin-left: 10%;
+      max-width: 360px;
+    }
+  }
+
+  .author-bio {
+    p {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .about-this-site {
-    h1 {
-        font-size: 2.5rem;
-        padding-bottom: 2rem;
+  text-align: center;
+  @media (min-width: 700px) {
+    margin: 5rem 0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    @media (min-width: 700px) {
+      flex-direction: row;
+      flex-wrap: wrap;
     }
-    text-align: center;
-    ul {
-        display:flex;
-        justify-content: center;
-        flex-direction: column;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+
+    @media (min-width: 700px) {
+      display: inline;
+      margin: 1rem;
     }
-    li {
-        list-style-type: none;
-        padding: 2rem 0rem 1rem 0rem;
-        font-size: 1.2rem;
-    }
+  }
 }
 
 .libraries-used {
-    padding: 0rem 40rem 10rem 40rem;
-    display: flex;
-    justify-content: space-evenly;
-    font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Roboto", sans-serif;
+
+  @media (min-width: 700px) {
+    justify-content: center;
+  }
 }
 
 .about {
-    padding-top: 5rem;
-}
-
-.author-bio {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    p {
-        padding-bottom: 1rem;
-    }
-    button {
-        justify-content: center;
-    }
+  padding-top: 5rem;
 }
