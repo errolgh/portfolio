@@ -19,7 +19,7 @@ export default function About () {
                     <p>
                     &nbsp;&nbsp;My name is Errol Watson. I'm currently based in Baltimore, Maryland. I am the sole developer of this site.
                     I got into programming after building my first gaming PC.
-                    The build was relatively easy and mostly anticlimactic, thusly, after it was up and running,
+                    The build was relatively easy and mostly anticlimactic. Thusly, after it was up and running,
                     I became more curious about how all the pieces in my computer and its applications worked.
                     I'm grateful for finding programming because I am the kind of person who enjoys deep dives into subjects,&nbsp;
                     and programming is <span style={{"font-style": "italic"}}>deep.</span>&nbsp;
