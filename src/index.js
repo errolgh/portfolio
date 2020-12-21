@@ -5,6 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 
 /* TODO
+remove phone number in case your site gets crawled by spammer bots
+captcha:
+https://www.a2hosting.com/blog/implement-captcha-solution-website/
+
 Overall responsiveness for site
 -media queries
 -remove min-widths
