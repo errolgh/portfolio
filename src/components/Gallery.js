@@ -6,7 +6,7 @@ export default function Gallery(){
     return (
         <div className="projects">
             <div className="project">
-                <a href="https://cranky-stonebraker-12c9f2.netlify.app/" target="_blank" rel="noreferrer">
+                <a href="https://hacker-news-search-errolgh.netlify.app/" target="_blank" rel="noreferrer">
                     <h2>Hacker News Search</h2>
                     <p>An SPA featuring the Hacker News Algolia API. Built with ReactJS, Redux, and Hooks.</p>
                     <img src={hackerNewsSearch} alt="Hacker News Search" />
