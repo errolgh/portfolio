@@ -1,4 +1,4 @@
-import "../styles/footer.scss";
+import '../styles/footer.scss'
 
 export default function Footer() {
   return (
@@ -11,47 +11,35 @@ export default function Footer() {
           </a>
         </li>
         <li>
-          <a
-            href="https://www.linkedin.com/in/errolwatson/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://www.linkedin.com/in/errolwatson/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
         </li>
         <li>
-          <a
-            href="https://medium.com/@ewatsonrei"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://medium.com/@ewatsonrei" target="_blank" rel="noreferrer">
             Medium
           </a>
         </li>
         <li>
-          <a
-            href="https://twitter.com/realErrolWatson"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://twitter.com/realErrolWatson" target="_blank" rel="noreferrer">
             Twitter
           </a>
         </li>
       </ul>
       <ul>
         <li>
-          Email:{" "}
+          Email:{' '}
           <div>
             <a href="mailto:ewatsonrei@gmail.com">ewatsonrei@gmail.com</a>
           </div>
         </li>
         <li>
-          Phone:{" "}
+          Phone:{' '}
           <div>
             <a href="tel:1-908-472-1977">(908) 472-1977</a>
           </div>
         </li>
       </ul>
     </footer>
-  );
+  )
 }

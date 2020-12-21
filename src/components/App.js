@@ -34,7 +34,6 @@ export default function App() {
   )
 }
 
-
 // design thinking (Not a linear process (think linked list))
 
 // Empathize > Define > Ideate > Prototype > Test
@@ -43,24 +42,12 @@ export default function App() {
 //react router netlify 404: https://dev.to/rajeshroyal/page-not-found-error-on-netlify-reactjs-react-router-solved-43oa
 // for environment variables deployed on netlify, go to Settings > Build & Deploy > Environment > Edit Variables
 
-
 // node-sass
 // react-fontawesome
 // react-router-dom
 // emailjs   //catch and modal for email successful submission
 // framer-motion
 // add license(s) per pack
-
-
-
-
-
-
-
-
-
-
-
 
 //   <header className="App-header">
 //     <img src={logo} className="App-logo" alt="logo" />

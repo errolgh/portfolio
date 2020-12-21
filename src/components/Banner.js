@@ -1,6 +1,6 @@
-import errol1 from "../images/errol-pelican.jpg";
-import "../styles/banner.scss";
-import { NavLink } from "react-router-dom";
+import errol1 from '../images/errol-pelican.jpg'
+import '../styles/banner.scss'
+import { NavLink } from 'react-router-dom'
 
 export default function Banner() {
   return (
@@ -22,5 +22,5 @@ export default function Banner() {
         <img src={errol1} alt="Errol Watson" />
       </div>
     </div>
-  );
+  )
 }

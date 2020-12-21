@@ -1,6 +1,6 @@
-import ContactForm from "../components/ContactForm";
-import { motion } from "framer-motion";
-import { pageAnimation } from "../animation";
+import ContactForm from '../components/ContactForm'
+import { motion } from 'framer-motion'
+import { pageAnimation } from '../animation'
 
 export default function Contact() {
   return (
@@ -13,5 +13,5 @@ export default function Contact() {
     >
       <ContactForm />
     </motion.div>
-  );
+  )
 }
