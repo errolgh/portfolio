@@ -8,7 +8,6 @@ import Portfolio from '../pages/Portfolio'
 import { AnimatePresence } from 'framer-motion'
 import { Route, Switch, useLocation } from 'react-router-dom'
 
-
 export default function App() {
   const location = useLocation()
   return (
@@ -34,5 +33,3 @@ export default function App() {
     </>
   )
 }
-
-// add license(s) per npm
