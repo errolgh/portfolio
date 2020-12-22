@@ -27,7 +27,7 @@ export default function About() {
             PC. The build was relatively easy and mostly anticlimactic, thusly, after it was up and
             running, I became more curious about how all the pieces in my computer and its
             applications worked. I'm grateful for finding programming because I am the kind of
-            person who enjoys deep dives into new subjects,&nbsp; and programming is{' '}
+            person who enjoys deep dives into subjects,&nbsp; and programming is{' '}
             <span style={{ 'font-style': 'italic' }}>deep.</span>&nbsp;
             <br />
             <br />

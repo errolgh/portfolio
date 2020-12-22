@@ -5,6 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 
 /* TODO
+consider removing phone number so your phone doesn't blow up with span texts/calls
+
 Overall responsiveness for site
 -media queries
 -remove min-widths

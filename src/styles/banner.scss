@@ -1,25 +1,4 @@
 button {
-<<<<<<< HEAD
-    background: #4ca1af;
-    width: 35%;
-    height: 3rem;
-    // padding: 0.8rem 0rem;
-    border-radius: 10px;
-    color: #fff;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.1rem;
-    letter-spacing: 0.08rem;
-    a {       //for NavLink component that creates an a tag.
-        text-decoration: none;
-        color: white;
-    }
-    &:hover {
-        transition: all 0.5s ease;
-        background: #37b95e;
-    }
-}
-=======
   background: #4ca1af;
   padding: 0.125rem 1.825rem;
   border-radius: 10px;
@@ -28,7 +7,6 @@ button {
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.08rem;
->>>>>>> refactor-styles
 
   a {
     text-decoration: none;
