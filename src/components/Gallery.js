@@ -11,26 +11,6 @@ export default function Gallery() {
           <img src={hackerNewsSearch} alt="Hacker News Search" />
         </a>
       </div>
-      <div className="project">
-        <h2>Hacker News Search</h2>
-        <img src={hackerNewsSearch} alt="Hacker News Search" />
-      </div>
-      <div className="project">
-        <h2>Hacker News Search</h2>
-        <img src={hackerNewsSearch} alt="Hacker News Search" />
-      </div>
-      <div className="project">
-        <h2>Hacker News Search</h2>
-        <img src={hackerNewsSearch} alt="Hacker News Search" />
-      </div>
-      <div className="project">
-        <h2>Hacker News Search</h2>
-        <img src={hackerNewsSearch} alt="Hacker News Search" />
-      </div>
-      <div className="project">
-        <h2>Hacker News Search</h2>
-        <img src={hackerNewsSearch} alt="Hacker News Search" />
-      </div>
     </div>
   )
 }
