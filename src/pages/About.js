@@ -28,7 +28,7 @@ export default function About() {
             running, I became more curious about how all the pieces in my computer and its
             applications worked. I'm grateful for finding programming because I am the kind of
             person who enjoys deep dives into subjects,&nbsp; and programming is{' '}
-            <span style={{ 'font-style': 'italic' }}>deep.</span>&nbsp;
+            <em>deep.</em>
             <br />
             <br />
             &nbsp;&nbsp;I wanted to build a career that I could cultivate from home if necessary and

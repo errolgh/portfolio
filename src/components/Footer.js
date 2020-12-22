@@ -33,12 +33,6 @@ export default function Footer() {
             <a href="mailto:ewatsonrei@gmail.com">ewatsonrei@gmail.com</a>
           </div>
         </li>
-        <li>
-          Phone:{' '}
-          <div>
-            <a href="tel:1-908-472-1977">(908) 472-1977</a>
-          </div>
-        </li>
       </ul>
     </footer>
   )
