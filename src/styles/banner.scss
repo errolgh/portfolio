@@ -1,12 +1,14 @@
 button {
-  background: #4ca1af;
-  padding: 0.125rem 1.825rem;
+  background: linear-gradient( 45deg, #4ca1af, #06acc2);
+  padding: .5rem 1.5rem;
+  border: none;
   border-radius: 10px;
   color: #fff;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.08rem;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
 
   a {
     text-decoration: none;
