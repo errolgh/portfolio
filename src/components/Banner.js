@@ -12,11 +12,11 @@ export default function Banner() {
         <p>
           I work to bring new features to <span>life</span>.
         </p>
-        <button>
           <NavLink to="/contact" activeClassName="current-page">
-            <div>Get In</div> Touch
+            <button>
+                <div>Get In Touch</div> 
+            </button>
           </NavLink>
-        </button>
       </div>
       <div className="img-container">
         <img src={errol1} alt="Errol Watson" />

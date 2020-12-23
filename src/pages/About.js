@@ -36,9 +36,11 @@ export default function About() {
             years I've taken courses, bootcamps, and taught myself how to build websites and web
             applications. Now it's time to offer my help to you.
           </p>
-          <button>
-            <NavLink to="/contact">Reach Out</NavLink>
-          </button>
+            <NavLink to="/contact">
+              <button>
+                Reach Out
+              </button>
+            </NavLink>
         </div>
       </div>
 
